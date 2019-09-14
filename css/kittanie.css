@@ -20,6 +20,11 @@ hr.light {
   border-color: #fff;
 }
 
+.section-divider{
+
+  border-top: 1px solid #b50717;
+}
+
 .text-padding{
 
   padding-bottom: 40px;
@@ -34,12 +39,17 @@ p.white{
   color: #f8f9fa;
 }
 
+p.black{
+
+  color: black;
+}
+
 a {
-  color: #d16e8d;
+  color: #b50717;
 }
 
 a:hover {
-  color: #fcc4c7;
+  color: #cf291d;
 }
 
 .text-primary {
@@ -47,7 +57,7 @@ a:hover {
 }
 
 h1,
-h2,
+h2, 
 h3,
 h4,
 h5,
@@ -60,6 +70,11 @@ h6 {
 .bg-dark-grey{
 
   background-color: #242323!important;
+}
+
+.bg-black{
+
+  background-color: #070707!important;
 }
 
 .page-section {
@@ -96,12 +111,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fcc4c7;
+  background: #b50717;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fcc4c7;
+  background: #b50717;
   text-shadow: none;
 }
 
@@ -121,7 +136,7 @@ div .Box-Border{
   border: 4px solid white;
   padding: 25px;
   margin: 25px;
-  background:rgba(36, 35, 35, 0.80);
+  background:rgba(0, 0, 0, 1.00);
 }
 
 .btn {
@@ -135,19 +150,18 @@ div .Box-Border{
 }
 
 .btn-primary {
-  background-color: #d16e8d;
-  border-color: #d16e8d;
+  background-color: #b50717;
+  border-color: #b50717;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fcc4c7 !important;
-  border-color: #fcc4c7 !important;
-  color: white;
+  background-color: #cf291d !important;
+  border-color: #cf291d !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(252, 196, 199, 1.0) !important;
-  box-shadow: 0 0 0 0.2rem rgba(252, 196, 199, 1.0) !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 1.0) !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 1.0) !important;
 }
 
 #mainNav {
@@ -166,12 +180,12 @@ div .Box-Border{
 }
 
 #mainNav .navbar-brand {
-  color: #d16e8d;
+  color: #b50717;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fcc4c7;
+  color: #ececec;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -184,12 +198,12 @@ div .Box-Border{
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #d16e8d;
+  color: #b50717;
 }
 
 @media (min-width: 992px) {
   #mainNav {
-    background-color: #242323!important;
+    background-color: #070707!important;
     padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -321,7 +335,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(252, 196, 199, 0.9);
+  background: rgba(207, 41, 29, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -399,7 +413,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(252, 196, 199, 0.9);
+  background: rgba(207, 41, 29, 0.9);
 }
 
 #portfolio2 .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -477,7 +491,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(252, 196, 199, 0.9);
+  background: rgba(207, 41, 29, 0.9);
 }
 
 #portfolio3 .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -805,12 +819,13 @@ header.masthead .intro-text .intro-heading {
 .team-member img {
   width: 225px;
   height: 225px;
-  border: 7px solid rgba(0, 0, 0, 0.1);
+  border: 7px solid rgba(255, 255, 255, 0.2);
 }
 
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
+  color: white;
   text-transform: none;
 }
 
@@ -913,9 +928,9 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #ffffff;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #b50717;
 }
