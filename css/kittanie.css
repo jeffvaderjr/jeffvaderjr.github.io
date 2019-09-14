@@ -48,6 +48,16 @@ a {
   color: #b50717;
 }
 
+a.white{
+
+  color: white;
+}
+
+a.white:hover {
+
+  color: black;
+}
+
 a:hover {
   color: #cf291d;
 }
@@ -894,7 +904,7 @@ section#contact :-ms-input-placeholder {
 .footer {
   padding: 25px 0;
   text-align: center;
-  background-color: #242323;
+  background-color: #b50717;
 }
 
 .footer span.copyright {
