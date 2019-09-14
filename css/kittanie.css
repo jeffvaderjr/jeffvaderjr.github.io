@@ -68,6 +68,11 @@ a:hover {
   color: #cf291d;
 }
 
+.text-responsive{
+
+  font-size: calc(100% + 1vw + 1vh);
+}
+
 .text-primary {
   color: #d16e8d !important;
 }
@@ -578,6 +583,7 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content h2 {
   font-size: 48px;
   margin-bottom: 15px;
+  font-size: calc(100% + 1vw + 1vh);
 }
 
 .portfolio-modal .modal-content p {
